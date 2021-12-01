@@ -24,6 +24,7 @@
                     </li>
                 </ul>
             </div>
+
         </div>
         <nav class="bg-danger">
             <ul class="nav justify-content-end">
@@ -52,10 +53,10 @@
     </header>
     <main class="container-fluid m-2">
         <section class="row form_recherche">
-            <div class="col-3 ">
+            <div class="col-3 bg_form_img">
                 <img class="m-5" src="image23.jpg" alt="photo d'une femme">
             </div>
-            <div class="col-5">
+            <div class="col-5 bg_form">
                 <main class="container-fluid m-5">
                     <h2>Recherchez votre ouvrage </h2>
                     <form method="get" action="" class="row  ">
@@ -80,7 +81,7 @@
                         </div>
                     </form>
             </div>
-            <aside class="col-3">
+            <aside class="col-3 bg_form">
                 <div class="mt-5 ">
                     <h1>Inscrivez-vous !</h1>
                     <ul class="nav flex-column">
@@ -102,7 +103,7 @@
         </section>
     </main>
     <footer class="container-fluid p-5 m-2">
-        <div class="row">
+        <div class="row justify-content-center">
             <ul class="col-4">
                 <li>A propos</li>
                 <li>Reglement</li>
@@ -111,15 +112,18 @@
                 <li>La bibliothèque</li>
             </ul>
             <ul class="col-4">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>A propos</li>
+                <li>Reglement</li>
+                <li>Inscription</li>
+                <li>Engagement</li>
+                <li>La bibliothèque</li>
             </ul>
             <address class="col-4">
-                <a href="mailto:info@bu-juvisy.com">info@bu-juvisy.com</a><br>
-                <a href="tel:+330160606060">Tel.01 60 60 60 60</a>
+                <h5>Bibliothèque universitaire</h5>
+                <p>899 BD des verdoises</br>91350 Juvisy Sur Orge</br>
+                    <a href="mailto:info@bu-juvisy.com">info@bu-juvisy.com</a><br>
+                    <a href="tel:+330160606060">Tel.01 60 60 60 60</a>
+                </p>
             </address>
         </div>
 

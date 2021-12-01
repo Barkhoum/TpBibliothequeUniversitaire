@@ -1,4 +1,16 @@
 .form_recherche{
-   background-image: linear-gradient(rgba(83, 83, 83, 0.5), rgba(255, 17, 0, 0.5)),
+   background-image: linear-gradient(rgba(83, 83, 83, 0.5), rgba(255, 17, 0, 0.315)),
                   url("bg form de recherche.png");
+}
+.bg_form{
+    margin: 10px;
+    background: white;
+    border-radius: 25% 10%;
+    opacity: 0.8;
+}
+.bg_form_img{
+    margin: 10px;
+    background: white;
+    border-radius: 25% 10%;
+    
 }
