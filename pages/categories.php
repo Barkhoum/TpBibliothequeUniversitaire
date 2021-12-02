@@ -1,7 +1,9 @@
-<section>
+<?php
+    $page = 'categories';
+    include_once 'inc/_entete.php';
+?> 
+    <section>
     <h2>Catégories d'ouvrages de la bibliothèque universitaire</h2>
-
-
     <div class="card" style="width: 18rem;">
         <img class="card-img-top" src="..." alt="Card image cap">
         <div class="card-body">
@@ -98,4 +100,7 @@
             <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
     </div>
-</section>
+    </section>
+    <?php
+    include_once 'inc/_pied_page.php'; 
+    ?>

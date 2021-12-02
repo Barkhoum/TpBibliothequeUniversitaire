@@ -1,3 +1,6 @@
+<?php
+include 'inc/_entete.php';
+?> 
 <div class="dropdown-menu">
     <form class="px-4 py-3">
         <div class="form-group">
@@ -20,3 +23,5 @@
     <a class="dropdown-item" href="#">New around here? Sign up</a>
     <a class="dropdown-item" href="#">Forgot password?</a>
 </div>
+<?php
+include 'inc/_pied_page.php';
