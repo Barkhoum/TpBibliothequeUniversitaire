@@ -12,23 +12,17 @@
 </head>
 
 <body>
-    <header class="container-fluid">
-        <div class="row">
-            <div class="col-8">
+    <header class="container-fluid m-0 p-0">
+        <div class="row ">
+            <div class="col-10">
                 <img src="./logov2.png">
             </div>
-            <div class="col-4">
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">Espace membres
-                        <a class="nav-link " href="#">Connexion</a>
-                    </li>
-                </ul>
+            <div class="col-2">
+                <a href="pages/connexion.php" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">Connexion lecteur</a>
             </div>
-
         </div>
-        <nav class="bg-danger">
-            <ul class="nav justify-content-end">
-
+        <nav class="bg-danger p-2">
+            <ul class="nav justify-content-center">
                 <li class="nav-item">
                     <a class="nav-link active" href="#">Accueil</a>
                 </li>
@@ -36,7 +30,7 @@
                     <a class="nav-link" href="#">Infos pratique</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Ouvrages</a>
+                    <a class="nav-link" href="catégories.php">Ouvrages</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Editeurs</a>
@@ -47,16 +41,15 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contact</a>
                 </li>
-
             </ul>
         </nav>
     </header>
-    <main class="container-fluid m-2">
-        <section class="row form_recherche">
-            <div class="col-3 bg_form_img">
-                <img class="m-5" src="image23.jpg" alt="photo d'une femme">
+    <main class="container-fluid">
+        <section class="row form_recherche  justify-content-center">
+            <div class="col-2 bg_form_img text-center">
+                <img class="m-5" src="livres_seach.png" alt="photo d'une femme">
             </div>
-            <div class="col-5 bg_form">
+            <div id='form_seach' class="col-5 bg_form">
                 <main class="container-fluid m-5">
                     <h2>Recherchez votre ouvrage </h2>
                     <form method="get" action="" class="row  ">
@@ -81,53 +74,66 @@
                         </div>
                     </form>
             </div>
-            <aside class="col-3 bg_form">
-                <div class="mt-5 ">
-                    <h1>Inscrivez-vous !</h1>
-                    <ul class="nav flex-column">
-                        <li class="nav-item">
-                            <a class="nav-link " href="#">Favoris</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Catégories</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Collections</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                        </li>
-                    </ul>
-                </div>
+            <aside class="col-2 bg_form ">
+
+                <h5>Catégories principales</h5>
+                <ul class="col list-unstyled">
+                    <li>Généralités</li>
+                    <li>Philosophie, psychologie, religion</li>
+                    <li>Sciences auxiliaires de l’histoire</li>
+                    <li>Histoire (sauf celle de l’Amérique)</li>
+                    <li>Histoires des Amériques </li>
+                    <li>Histoire des Amériques </li>
+                    <li>Géographie, anthropologie, loisirs</li>
+                    <li>Sciences sociales</li>
+                    <li>Sciences politiques</li>
+                    <li>Droit</li>
+                    <li>Éducation</li>
+                    <li>Musique</li>
+                    <li>Beaux-arts</li>
+                    <li>Langage et littérature</li>
+                    <li>Sciences et mathématiques</li>
+                    <li>Médecine</li>
+                    <li>Agriculture</li>
+                    <li>Technologie</li>
+                    <li>Science militaire</li>
+                    <li>Science navale</li>
+                    <li>Bibliographie, bibliothéconomie</li>
+
+
+                </ul>
             </aside>
         </section>
     </main>
-    <footer class="container-fluid p-5 m-2">
-        <div class="row justify-content-center">
-            <ul class="col-4">
-                <li>A propos</li>
-                <li>Reglement</li>
-                <li>Inscription</li>
-                <li>Engagement</li>
-                <li>La bibliothèque</li>
+    <footer class="container-fluid">
+        <div class="row col-10 d-flex justify-content-center text-white">
+
+            <ul class="col list-unstyled">
+                <h5>à propos</h5>
+                <li>informations générales</li>
+                <li>la bibliotheque</li>
+                <li>l'nscription</li>
+                <li>conditions d'emprunt</li>
+
             </ul>
-            <ul class="col-4">
-                <li>A propos</li>
-                <li>Reglement</li>
-                <li>Inscription</li>
+
+            <ul class="col list-unstyled">
+                <h5>nous joindre</h5>
+                <li>bensoin d'aides</li>
+                <li>collections</li>
+                <li>text</li>
                 <li>Engagement</li>
-                <li>La bibliothèque</li>
+
             </ul>
-            <address class="col-4">
-                <h5>Bibliothèque universitaire</h5>
+            <address class="col ">
+                <h5>bibliothèque universitaire</h5>
                 <p>899 BD des verdoises</br>91350 Juvisy Sur Orge</br>
                     <a href="mailto:info@bu-juvisy.com">info@bu-juvisy.com</a><br>
-                    <a href="tel:+330160606060">Tel.01 60 60 60 60</a>
+                    Tel. : 01 60 60 60 60
                 </p>
             </address>
         </div>
-
-        <div class="text-center bg-black text-white p-3">
+        <div class=" text-center bg-black text-white ">
             © 2021 Bibliothèque universitaire de Juvisy sur Orge
         </div>
     </footer>
