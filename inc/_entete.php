@@ -14,22 +14,22 @@ $page = 'entete';
     <nav class="bg-danger p-2">
         <ul class="nav justify-content-center">
             <li class="nav-item">
-                <a class="nav-link active" href="index.php">Accueil</a>
+                <a class="nav-link active" href="../index.php">Accueil</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="pages/infos_pratique.php">Infos pratique</a>
+                <a class="nav-link" href="/pages/infos_pratique.php">Infos pratique</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="pages/categories.php">Ouvrages</a>
+                <a class="nav-link" href="/pages/ouvrages.php">Ouvrages</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="pages/editeurs.php">Editeurs</a>
+                <a class="nav-link" href="/pages/editeurs.php">Editeurs</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="pages/auteurs.php">Auteurs</a>
+                <a class="nav-link" href="/pages/auteurs.php">Auteurs</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="pages/contact.php">Contact</a>
+                <a class="nav-link" href="/pages/contact.php">Contact</a>
             </li>
         </ul>
     </nav>

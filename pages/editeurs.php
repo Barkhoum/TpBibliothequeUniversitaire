@@ -1,15 +1,9 @@
 <?php
-include_once '../inc/_entete.php';
-include_once '../inc/_formulaire_recherche.php';
-include_once '../inc/_pied_page.php';
-?>
-<?php
 include require "../inc/_entete.php";
-$page = 'categories.php';
+$page = 'categories';
 ?>
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,7 +13,6 @@ $page = 'categories.php';
     <title>Parcours Média</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <section>
         <h2>Catégories d'ouvrages de la bibliothèque universitaire</h2>
@@ -123,7 +116,6 @@ $page = 'categories.php';
     <?php
     include_once '../inc/_pied_page.php';
     ?>
-
     <script src='app.js'></script>
 </body>
 
