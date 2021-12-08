@@ -1,5 +1,5 @@
 <?php
-$page = 'infos_pratique';
+$page = 'accueil';
 ?>
 
 <!DOCTYPE html>
@@ -17,14 +17,11 @@ $page = 'infos_pratique';
 
 <body>
     <?php
-    require '../inc/_entete.php';
+    include_once './View/inc/_entete.php';
+    include_once './View/inc/_formulaire_recherche.php';
+    include_once './View/inc/_pied_page.php';
     ?>
-     <section>
-         <h1>informations relatives à la bibliotheque universitaire </h1>
-    </section>
-    <?php
-    require '../inc/_pied_page.php';
-    ?>
+
     <script src='app.js'></script>
 </body>
 

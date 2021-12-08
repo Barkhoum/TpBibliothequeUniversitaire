@@ -3,7 +3,6 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-
     background-image: linear-gradient(rgba(187, 184, 184, 0.281), rgba(255, 17, 0, 0.897));
     margin: 0;
     padding: 0;
@@ -21,7 +20,7 @@ h1,h2,h3,h4,h5{
 
 .form_recherche{
 background-image: linear-gradient(rgba(187, 184, 184, 0.616), rgba(255, 17, 0, 0.897)),
-url(bg\ form\ de\ recherche.png);
+url(assets/images/fond_bg.png);
 }
 /***********************************************************/
 

@@ -5,7 +5,7 @@ $page = 'entete';
 <header class="container-fluid m-0 p-0">
     <div class="row ">
         <div class="col-10">
-            <img src="./logov2.png">
+            <img src="assets/images/logov2.png">
         </div>
         <div class="col-2">
             <a href="pages/connexion.php" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">Connexion lecteur</a>

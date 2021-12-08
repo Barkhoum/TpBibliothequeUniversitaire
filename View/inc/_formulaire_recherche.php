@@ -4,7 +4,7 @@
 <main class="container-fluid">
     <section class="row form_recherche  justify-content-center">
         <div class="col-2 bg_form_img text-center">
-            <img class="m-5" src="livres_seach.png" alt="photo d'une femme">
+            <img class="pt-5" src="/Assets/images/livres_seach.png" alt="photo d'une femme">
         </div>
         <div id='form_seach' class="col-5 bg_form">
             <main class="container-fluid m-5">

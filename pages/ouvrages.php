@@ -1,7 +1,6 @@
 <?php
 $page = 'ouvrages';
 ?>
-
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -26,8 +25,7 @@ $page = 'ouvrages';
     </section>
 
     <?php
-    include_once '../inc/_pied_page.php';
+    include_once './inc/_pied_page.php';
     ?>
-
-    <script src='app.js'></script>
+    
 </body>

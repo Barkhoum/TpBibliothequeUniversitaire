@@ -1,6 +1,6 @@
  <?php
    $page = 'auteurs';
-   include_once '../inc/_entete.php';
+   include '../inc/_entete.php';
  ?>
 
  <head>
@@ -26,6 +26,6 @@
        </div>
     </section>
     <?php
-      include_once '../inc/_pied_page.php';?>
+      include '../inc/_pied_page.php';?>
  </body>
  </html>
