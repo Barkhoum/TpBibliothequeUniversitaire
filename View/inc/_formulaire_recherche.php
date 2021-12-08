@@ -1,6 +1,3 @@
-<?php
-?>
-
 <main class="container-fluid">
     <section class="row form_recherche  justify-content-center">
         <div class="col-2 bg_form_img text-center">

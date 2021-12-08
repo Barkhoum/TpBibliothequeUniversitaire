@@ -1,7 +1,3 @@
-<?php
-$page = 'accueil';
-?>
-
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -17,12 +13,9 @@ $page = 'accueil';
 
 <body>
     <?php
-    include_once './View/inc/_entete.php';
-    include_once './View/inc/_formulaire_recherche.php';
-    include_once './View/inc/_pied_page.php';
+    require 'view/inc/_entete.php';
+    require  $vue. '.php';
     ?>
-
-    <script src='app.js'></script>
 </body>
 
 </html>

@@ -1,7 +1,3 @@
-<?php
-$page = 'entete';
-?>
-
 <header class="container-fluid m-0 p-0">
     <div class="row ">
         <div class="col-10">
@@ -11,25 +7,35 @@ $page = 'entete';
             <a href="pages/connexion.php" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">Connexion lecteur</a>
         </div>
     </div>
+    <h1>Vous êtes sur la page <?php echo $vue; ?></h1>
+    <?php
+    if (isset($_SESSION['user'])) {
+        echo '<h3>Bonjour ' . $_SESSION['user'] . '</h3>';
+    }
+    session_write_close();
+    ?>
     <nav class="bg-danger p-2">
         <ul class="nav justify-content-center">
             <li class="nav-item">
                 <a class="nav-link active" href="../index.php">Accueil</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/pages/infos_pratique.php">Infos pratique</a>
+                <a class="nav-link active" href="/Controller/controller_user.php?entite=personne&action=users">USER</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/pages/ouvrages.php">Ouvrages</a>
+                <a class="nav-link" href="/View/home/infos_pratique.php?entite=personne&action=infos-pratique">Infos pratique</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/pages/editeurs.php">Editeurs</a>
+                <a class="nav-link" href="/View/home/ouvrages.php?entite=personne&action=ouvrages">Ouvrages</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/pages/auteurs.php">Auteurs</a>
+                <a class="nav-link" href="/View/home/editeurs.php?entite=personne&action=editeurs">Editeurs</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/pages/contact.php">Contact</a>
+                <a class="nav-link" href="/View/home/auteurs.php?entite=personne&action=auteurs">Auteurs</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/View/home/contact.php?entite=personne&action=contact">Contact</a>
             </li>
         </ul>
     </nav>

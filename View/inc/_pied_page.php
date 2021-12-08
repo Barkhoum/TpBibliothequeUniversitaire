@@ -1,7 +1,3 @@
- <?php
-    $page = 'pied_page';
-    ?>
- 
  <footer class="container-fluid">
      <div class="row col d-flex justify-content-center text-white">
 
