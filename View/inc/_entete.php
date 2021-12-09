@@ -32,11 +32,21 @@
                 <a class="nav-link" href="/View/home/editeurs.php?entite=personne&action=editeurs">Editeurs</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/View/home/auteurs.php?entite=personne&action=auteurs">Auteurs</a>
+                <a class="nav-link" href="auteurs.php?entite=personne&action=auteurs">Auteurs</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/View/home/contact.php?entite=personne&action=contact">Contact</a>
             </li>
+            <li>
+                <a href="index.php?entite=personne&action=connexion">Se connecter</a>
+            </li>
+            <li>
+                <a href="index.php?entite=article&action=liste">Voir les articles</a>
+            </li>
+            <li>
+                <a href="index.php?entite=article&action=nouvelArticle">Nouvel article</a>
+            </li>
+            </section>
         </ul>
     </nav>
 </header>

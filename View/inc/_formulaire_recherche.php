@@ -6,6 +6,9 @@
         <div id='form_seach' class="col-5 bg_form">
             <main class="container-fluid m-5">
                 <h2>Recherchez votre ouvrage </h2>
+                <a href="index.php?entite=personne&action=connexion">Se connecter</a>
+                <a href="index.php?entite=article&action=liste">Voir les articles</a>
+                <a href="index.php?entite=article&action=nouvelArticle">Nouvel article</a>
                 <form method="get" action="" class="row  ">
                     <div class="mb-3 col-10">
                         <div class="mb-3 col">

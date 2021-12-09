@@ -1,11 +1,14 @@
 <?php
-global $action;
-switch ($action) {
 
-    case 'user':
-        require 'model/modeleUser.php';
-        $users = listeAllUser();
-        $vue = 'user';
+switch ($action) {
+    case 'login':
+        $erreur = '';
+        require 'modeles/ModelePersonne.php';
+        login();
+        break;
+    case 'connexion':
+        $erreur = '';
+        $vue = 'form_login';
         break;
 
     default:

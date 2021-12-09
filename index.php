@@ -4,23 +4,27 @@ $vue = '';
 
 if (empty($_GET)) {
     $entite = '';
-    $action = './';
+    $action = '/view/inc/_formulaire_recherche.php';
 } else {
     $entite = $_GET['entite'];
     $action = $_GET['action'];
 }
 try {
     switch ($entite) {
+        case 'article':
+            require 'controller/Controller_livre.php';
+            break;
+
         case 'personne':
-            require '/Controller/controller_user.php';
+            require 'controller/Controller_user.php';
             break;
 
         default:
-            $vue = 'home';
+            $vue = '/view/inc/_formulaire_recherche.php';
             break;
     }
-} catch (PDOException $err){
+} catch (PDOException $err) {
     $vue = 'erreur';
 }
-
 require 'View/template.php';
+/// il faut regrouper les fichiers model.php et templade
